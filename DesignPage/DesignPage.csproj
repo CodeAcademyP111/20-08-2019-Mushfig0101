@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190820155051_CreateSliderTable.cs" />
+    <Compile Remove="Migrations\20190820155051_CreateSliderTable.Designer.cs" />
+    <Compile Remove="Migrations\20190820162415_CreateSliderTable.cs" />
+    <Compile Remove="Migrations\20190820162415_CreateSliderTable.Designer.cs" />
+    <Compile Remove="Migrations\20190820222803_CreateAboutUsTable.cs" />
+    <Compile Remove="Migrations\20190820222803_CreateAboutUsTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+  </ItemGroup>
+
+</Project>
